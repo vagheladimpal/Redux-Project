@@ -7,6 +7,7 @@ import  {BrowserRouter, Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <>
+    <Header/>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
