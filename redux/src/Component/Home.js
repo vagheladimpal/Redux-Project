@@ -8,6 +8,9 @@ const Home = () => {
   const [cartData, setCartData] = useState(CardData);
   return (
     <>
+
+
+    
       <section className="item_section mt-4 container">
         <h2 className="px-4 style={fontweight:400}">Resturants in Ahmedabad</h2>
         <div className="row mt-2 d-flex justify-content-around align-item-centre">
